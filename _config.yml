@@ -9,7 +9,7 @@ name: No Shit, Sherlock!
 description:
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: http://localhost:4000/noshitsherlock.png
+avatar: https://raw.githubusercontent.com/mathialo/no-shit-sherlock/master/noshitsherlock140.png
 
 #
 # Flags below are optional
