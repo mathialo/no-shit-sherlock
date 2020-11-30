@@ -2,7 +2,6 @@
 layout: page
 title: Om NSS-prisen
 permalink: /om/
-description: Hjemmeside for tildelinger av 'No Shit, Sherlock'-prisen og Månedens Sherlock
 ---
 
 _"No Shit, Sherlock"_-prisen er en årlig utnevnelse av en politiker, journalist eller annen
