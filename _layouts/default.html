@@ -14,6 +14,7 @@
     <meta name="author" content="foss@mathiaslohne.com" />
 
     <meta property="og:title" content="No Shit, Sherlock!" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/mathialo/no-shit-sherlock/master/noshitsherlock.png">
     <meta property="twitter:title" content="No Shit, Sherlock!" />
 
     <!--[if lt IE 9]>
@@ -21,7 +22,7 @@
     <![endif]-->
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/mathialo/no-shit-sherlock/master/noshitsherlock128.png">
 
     {% include analytics.html %}
@@ -41,8 +42,9 @@
           </div>
 
           <nav>
-            <!-- <a href="{{ site.baseurl }}/">Blog</a> -->
             <a href="{{ site.baseurl }}/om">Om NSS-prisen</a>
+            <!-- <a href="{{ site.baseurl }}/vinnere">Alle vinnere</a> -->
+            <!-- <a href="{{ site.baseurl }}/tips">Tips oss!</a> -->
           </nav>
         </header>
       </div>
@@ -52,12 +54,17 @@
       {{ content }}
     </div>
 
-    <!-- <div class="wrapper-footer">
+    <div class="container" style="flex: 1; height: 100%;"> </div>
+    <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
+          <!-- <p>Presentert av NSS-komitéen - Kontakt oss på blablabla</p> -->
+
+          <p><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC" class="cclogo" /><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="BY" class="cclogo" /> Alt innhold på denne siden er lisensiert under CC-BY 4.0</p>
+
           {% include svg-icons.html %}
         </footer>
       </div>
-    </div> -->
+    </div>
   </body>
 </html>

@@ -21,6 +21,9 @@ body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .container {
@@ -32,8 +35,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
-  font-weight: bold;
+  font-weight: 300;
+  /*color: $darkerGray;*/
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -122,6 +125,7 @@ img {
 .date {
   font-style: italic;
   color: $gray;
+  font-weight: 300;
   font-size: 0.9em;
 }
 
@@ -296,21 +300,29 @@ nav {
   }
 }
 
-.PageNavigation .next {
+.PageNavigation .RightPage {
   text-align: right;
   float: right;
 }
 
 .wrapper-footer {
-  margin-top: 50px;
+  margin-top: 100px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
 }
 
 footer {
-  padding: 20px 0;
+  padding: 30px 0px;
   text-align: center;
+  text-color: $gray;
+  font-weight: 300;
+  font-size: 0.8em;
+}
+
+
+.cclogo {
+  height: 0.8em;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

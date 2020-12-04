@@ -11,6 +11,11 @@ description:
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/mathialo/no-shit-sherlock/master/noshitsherlock140.png
 
+url: "https://noshitsherlock.no"
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
 #
 # Flags below are optional
 #
@@ -21,11 +26,11 @@ footer-links:
   email:
   facebook:
   flickr:
-  github:
+  github: mathialo/no-shit-sherlock
   instagram:
   linkedin:
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: true # just type anything here for a working RSS icon
   twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
