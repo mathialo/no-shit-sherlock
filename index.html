@@ -9,7 +9,22 @@ layout: default
       <h1 class="postlist"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="date">
-        {{ post.date | date: "%B %Y" }}
+        {% assign m = post.date | date: "%-m" %}
+        {% case m %}
+          {% when '1' %}Januar
+          {% when '2' %}Februar
+          {% when '3' %}Mars
+          {% when '4' %}April
+          {% when '5' %}Mai
+          {% when '6' %}Juni
+          {% when '7' %}Juli
+          {% when '8' %}August
+          {% when '9' %}September
+          {% when '10' %}Oktober
+          {% when '11' %}November
+          {% when '12' %}Desember
+        {% endcase %}
+        {{ post.date | date: "%Y" }}
       </div>
 
       <div class="entry">
