@@ -75,6 +75,11 @@ p {
   margin: 15px 0;
 }
 
+.footnote {
+  vertical-align: super;
+  font-size: 0.6em;
+}
+
 a {
   color: $blue;
   text-decoration: none;
