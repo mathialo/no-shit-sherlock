@@ -54,11 +54,17 @@ h1 {
   }
 }
 
+li {
+  margin-bottom: 1em;
+}
+
 h1.postlist {
   margin-bottom: 0em;
 }
 
 h2 {
+  margin-top: 2.3em;
+  margin-bottom: 1em;
   font-size: 24px;
 }
 
@@ -120,6 +126,10 @@ strong, b {
 
 img {
   max-width: 100%;
+}
+
+hr {
+  margin: 2em 0;
 }
 
 // Fixes images in popup boxes from Google Translate
