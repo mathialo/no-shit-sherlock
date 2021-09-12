@@ -3,7 +3,8 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
+
+  {% for post in paginator.posts %}
     <article class="post">
 
       <h1 class="postlist"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -34,4 +35,15 @@ layout: default
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Les mer</a>
     </article>
   {% endfor %}
+</div>
+
+<div class="PageNavigation">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="LeftPage">
+      &laquo; Forrige side
+    </a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="RightPage">Neste &raquo;</a>
+  {% endif %}
 </div>

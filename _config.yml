@@ -15,6 +15,7 @@ url: "https://noshitsherlock.no"
 plugins:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-paginate
 
 #
 # Flags below are optional
@@ -58,6 +59,10 @@ baseurl: ""
 # !! You don't need to change any of the configuration flags below !!
 #
 
+paginate: 10
+paginate_path: "/page:num/"
+
+
 permalink: /:title/
 
 # The release of Jekyll Now that you're using
@@ -81,6 +86,7 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-paginate
 
 # Exclude these files from your production _site
 exclude:
